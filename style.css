@@ -112,3 +112,19 @@ body > main > article > section > p {
 body > main > article > section > dl {
     margin: 0;
 }
+
+div[info] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 1px solid #b7b7b7;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+div[info] > p {
+    margin: 0;
+}
